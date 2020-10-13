@@ -5,18 +5,6 @@
     background-color: $primary-color;
     > *{padding-left: 30px;}
   
-  
-    ul {
-        // be ul
-        padding-left: undefined;
-    }
-  
-    shows.html {
-        display: list-item;
-        list-style-type: circle;
-        list-style-position: inside;
-    }
-  
     h1 {
     font-size: 62px;
     -webkit-margin-before: 0;
@@ -32,14 +20,12 @@
     width: 55%;
     min-width: 550px;
     }
-  }
-  .content a {
-    color: inherit;
-    text-decoration: none;
-  }
-  
-  .content a:hover {
-    text-decoration: underline;
-  }
+    
+    a:link {
+      color: $secondary-color;
+    }
 
- 
+    a:visited {
+    color: $secondary-color;
+  }
+  }

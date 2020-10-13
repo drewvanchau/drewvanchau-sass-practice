@@ -20,21 +20,9 @@ html, body {
     width: 550px;
   }
 
-  ul a.bullet {
-    display: list-item;
-    list-style-type: circle;
-    list-style-position: inside;
-  }
-
   li {
-    display: list-item;
     list-style-type: circle;
     list-style-position: inside;
-  }
-  
-  ul {
-    list-style: none;
-    font-size: 1rem;
   }
   
   .container {
@@ -43,4 +31,10 @@ html, body {
     font-size: 1rem;
   
   }
-  
+  a:link {
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
